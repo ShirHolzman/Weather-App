@@ -13,7 +13,7 @@
     left: 13%;
     min-height: 100vh;
   }
-=======
+
 .main-data {
   width: 90vw;
   margin: auto;
@@ -23,7 +23,6 @@
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(70, 68, 68, 0.276);
 }
 
-@media screen and (max-width: 1006px) {
   .main-data {
     width: 90%;
     left: 13%;
