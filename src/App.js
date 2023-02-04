@@ -9,7 +9,7 @@ import WeatherContext from "./Store/weather-contex"
 import "./App.css";
 
 function App() {
-  const [animationGoing, setAnimationState] = useState(false);
+  const [animationGoing, setAnimationState] = useState(true);
   const [location, setLocation] = useState({
     name: "Jerusalem,Israel",
     latitude: 31.768319,
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <WeatherContext.Provider value={{location, setLocation}}>
-      {/* {animationGoing && <Intro />} */}
+      {animationGoing && <Intro />}
       {!animationGoing && (
         <div>
           <Logo />
