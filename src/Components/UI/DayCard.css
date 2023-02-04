@@ -1,0 +1,60 @@
+.card-item {
+  width: 12.4%;
+  height: 55%;
+  border-radius: 0.7rem;
+  color: #1a1a1a;
+  background-color: rgba(249, 207, 167, 0.884);
+  text-align: center;
+  padding: 0.1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0.1rem 0.1rem rgba(77, 74, 74, 0.796);
+  /* min-width: 77px;
+  min-height: 108px; */
+}
+
+.weather-icon-img {
+  margin: 0;
+  width: 160%;
+  position: relative;
+  left: 13%;
+}
+
+.day-name {
+  font-size: 80%;
+  margin-top: 0.6rem;
+}
+
+.card-icon {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.day-temp {
+  font-size: 1.5vmin;
+  justify-content: center;
+  display: flex;
+}
+
+.day-temp h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+
+@media screen and (max-width: 1190px) {
+  .day-name {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .day-name {
+    font-size: 45%;
+  }
+
+  .card-item {
+    height: 40%;
+  }
+}

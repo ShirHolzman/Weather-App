@@ -1,0 +1,11 @@
+#input {
+  padding: 0.5rem;
+  width: 20%;
+  margin: 1rem;
+  position: relative;
+  right: 35%;
+  border-radius: 0.3rem;
+  border-width: 0.05rem;
+  z-index: 10;
+  font-family: sans-serif;
+}
