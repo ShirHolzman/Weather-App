@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -8,3 +9,15 @@
     right: 9%;
     top: 25%;
 }
+=======
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    position: absolute;
+    height: 38%;
+    width: 57%;
+    right: 9%;
+    top: 25%;
+}
+>>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624

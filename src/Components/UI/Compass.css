@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .spinner {
     transform-origin: 50% 50%;
     transform-box: fill-box;
@@ -11,3 +12,18 @@
     right: 75%;
     top: 36%;
 }
+=======
+.spinner {
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    position: absolute;
+  }
+
+.compass-svg {
+    width: 27%;
+    height: 27%;
+    position: absolute;
+    right: 75%;
+    top: 36%;
+}
+>>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624

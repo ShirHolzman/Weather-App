@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .logo-img {
   width: 25vmin;
   height: 20vmin;
   margin-left: 0.5rem;
   right: 45vw;
   position: relative;
+=======
+.logo-img {
+  width: 25vmin;
+  height: 20vmin;
+  margin-left: 0.5rem;
+  right: 45vw;
+  position: relative;
+>>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624
 }

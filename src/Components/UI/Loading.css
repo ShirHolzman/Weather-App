@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .icon {
   width: 10%;
   margin: 0;
@@ -35,4 +36,43 @@
     position: absolute;
     left: 42.4%;
     top: 61vh;
+=======
+.icon {
+  width: 10%;
+  margin: 0;
+  position: absolute;
+  animation: rotate 10s 0s linear infinite;
+  fill: #ee9450;
+  transition: all 0.4s;
+  left: 43.4%;
+  top: 44vh;
+}
+.ray,
+.circle {
+  stroke: #ee9450;
+  transition: all 0.4s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loading-text {
+    color: #ee9450;
+    font-family: 'Berlin Sans FB';
+    font-size: 7vmin;
+    position: absolute;
+    left: 42.4%;
+    top: 61vh;
+>>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624
 }

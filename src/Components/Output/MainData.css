@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-data {
   width: 90vw;
   margin: auto;
@@ -13,4 +14,21 @@
     left: 13%;
     min-height: 100vh;
   }
+=======
+.main-data {
+  width: 90vw;
+  margin: auto;
+  height: 75vh;
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(70, 68, 68, 0.276);
+}
+
+@media screen and (max-width: 1006px) {
+  .main-data {
+    width: 90%;
+    left: 13%;
+    min-height: 100vh;
+  }
+>>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624
 }
