@@ -57,7 +57,7 @@
   .card-item {
     height: 40%;
   }
-=======
+
 .card-item {
   width: 12.4%;
   height: 55%;
@@ -102,19 +102,16 @@
   margin-bottom: 0.6rem;
 }
 
-
-@media screen and (max-width: 1190px) {
-  .day-name {
-    font-size: 70%;
-  }
-}
-
-@media screen and (max-width: 731px) {
   .day-name {
     font-size: 45%;
   }
 
   .card-item {
     height: 40%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .day-name {
+    font-size: 70%;
   }
 }
