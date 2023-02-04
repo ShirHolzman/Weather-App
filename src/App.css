@@ -1,0 +1,10 @@
+#myVideo {
+  z-index: -20;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

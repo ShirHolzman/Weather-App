@@ -1,0 +1,10 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    position: absolute;
+    height: 38%;
+    width: 57%;
+    right: 9%;
+    top: 25%;
+}

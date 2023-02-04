@@ -1,0 +1,13 @@
+.spinner {
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    position: absolute;
+  }
+
+.compass-svg {
+    width: 27%;
+    height: 27%;
+    position: absolute;
+    right: 75%;
+    top: 36%;
+}
