@@ -55,7 +55,7 @@
     left: 13%;
     top: 70%;
   }
-=======
+
 .additional-weather {
   position: absolute;
   height: 38%;
@@ -107,10 +107,8 @@
   box-shadow: 0.1rem 0.1rem rgba(77, 74, 74, 0.796);
 }
 
-@media screen and (max-width: 1006px) {
   .additional-weather {
     width: 90%;
     left: 13%;
     top: 70%;
-  }
 }
