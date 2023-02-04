@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *,
 *:before,
 *:after {
@@ -698,5 +697,4 @@
 .cloud .snow .flake:nth-of-type(10) {
   animation: snowFlakeFall 4s 3s linear infinite;
   right: 10%;
->>>>>>> 750a379b369ac59f8cbee5e62b88eca6388f1624
 }
