@@ -23,3 +23,4 @@ const ThunderStorm = () => {
           </div>
         </div>);
 };
+export default ThunderStorm;
