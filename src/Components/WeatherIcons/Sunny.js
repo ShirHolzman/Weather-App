@@ -18,3 +18,4 @@ const Sunny = () => {
     </div>
   );
 };
+export default Sunny;
